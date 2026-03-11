@@ -63,6 +63,7 @@ export default function ResetPassword() {
         </div>
 
         <button
+        type="button"
           className="btn btn-success w-100"
           onClick={submit}
           disabled={loading}
