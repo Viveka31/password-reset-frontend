@@ -11,6 +11,8 @@ export default function ResetPassword() {
   const [loading,setLoading] = useState(false);
 
   const submit = async () => {
+    console.log("submit 2");
+    
 
     if(!password){
       alert("Enter new password");

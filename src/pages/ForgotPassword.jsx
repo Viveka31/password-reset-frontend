@@ -8,6 +8,8 @@ export default function ForgotPassword() {
   const [loading,setLoading] = useState(false);
 
   const submit = async () => {
+    console.log("submit clicked 1");
+    
 
     if(!email){
       alert("Enter email");
