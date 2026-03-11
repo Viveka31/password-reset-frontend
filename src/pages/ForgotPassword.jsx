@@ -31,9 +31,10 @@ export default function ForgotPassword() {
 
       alert(error.response?.data?.message || "Error");
 
-    }
+    }finally{
 
     setLoading(false);
+    }
 
   };
 

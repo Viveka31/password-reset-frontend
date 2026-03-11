@@ -34,9 +34,10 @@ export default function ResetPassword() {
 
       alert(error.response?.data?.message || "Error");
 
-    }
+    }finally{
 
     setLoading(false);
+    }
 
   };
 
