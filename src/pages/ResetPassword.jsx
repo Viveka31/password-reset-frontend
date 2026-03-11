@@ -22,7 +22,7 @@ export default function ResetPassword() {
       setLoading(true);
 
       const res = await axios.post(
-        `https://YOUR-RENDER-URL.onrender.com/api/auth/reset-password/${token}`,
+        `https://https://password-reset-backend-tjps.onrender.com/api/auth/reset-password/${token}`,
         { password }
       );
 

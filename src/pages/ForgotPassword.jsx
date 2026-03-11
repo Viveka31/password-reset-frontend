@@ -19,7 +19,7 @@ export default function ForgotPassword() {
       setLoading(true);
 
       const res = await axios.post(
-        "https://YOUR-RENDER-URL.onrender.com/api/auth/forgot-password",
+        "https://https://password-reset-backend-tjps.onrender.com/api/auth/forgot-password",
         { email }
       );
 
