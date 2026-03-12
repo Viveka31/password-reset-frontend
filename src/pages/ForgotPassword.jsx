@@ -26,7 +26,7 @@ export default function ForgotPassword() {
       );
 
       alert(`Reset link: ${res.data.resetLink}`);
-console.log("Reset link:", res.data.resetLink);
+// console.log("Reset link:", res.data.resetLink);
       alert(res.data.message);
 
     }catch(error){
